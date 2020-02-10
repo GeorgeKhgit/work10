@@ -1,0 +1,1 @@
+$(".burger_menu").click(function(){$(".burger__menu").fadeIn()}),$(document).keydown(function(e){27==e.keyCode&&$(".burger__menu").fadeOut()}),$(".burger_close_item").click(function(){$(".burger__menu").fadeOut()});
